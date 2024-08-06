@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const hiddenContentSections = document.querySelectorAll(".hiddenContent");
 
   const errorMessages = [
-    `Last Script Error: sol: runtime error: ... EVIL 4 BIOHAZARD
+    `sol: runtime error: ... EVIL 4 BIOHAZARD
   RE4\\reframework\\autorun\\IKTesting.lua:53: field 'atan2' is not callable (a nil value)
   stack traceback:
       ... EVIL 4 BIOHAZARD
@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
       ... EVIL 4 BIOHAZARD
       RE4\\reframework\\autorun\\IKTesting.lua:222: in function ...`,
 
-    `Last Script Error: sol: runtime error: ...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:28: attempt to concatenate a nil value (upvalue 'selected_weight_multiplier_preset')
+    `sol: runtime error: ...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:28: attempt to concatenate a nil value (upvalue 'selected_weight_multiplier_preset')
   stack traceback:
       ...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:28: in function <...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:26>`,
 
-    `Last Script Error: sol: runtime error: ...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:68: field 'begin' is not callable (a nil value)
+    `sol: runtime error: ...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:68: field 'begin' is not callable (a nil value)
   stack traceback:
       ...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:68: in function <...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:61>`,
   ];
