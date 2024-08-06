@@ -7,16 +7,18 @@ body, h1, h2, h3, p, img, button {
 }
 
 body {
-    margin: 8px;
+    margin: 0;
+    padding: 0;
     display: block;
-    background-color: #f4f4f4;
+    background: url('images/reBackground.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
 }
 
 header {
     background: #333;
-    color: white; 
+    color: white;
     padding: 10px 20px;
     text-align: center;
     font-size: 2em;
@@ -27,10 +29,10 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #444; 
+    background: rgba(68, 68, 68, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: white; 
+    color: white;
 }
 
 article {
@@ -44,18 +46,18 @@ h1, h2, h3 {
 
 h1#mainHeading {
     font-size: 2.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 20px;
     color: red;
 }
 
 p {
-    margin: 10px 0;
+    margin: 0;
+    margin-bottom: 10px;
     font-size: 1em;
 }
 
 p#testP.funParagraph {
     color: green;
-
 }
 
 img {
@@ -70,14 +72,14 @@ button {
     padding: 15px;
     margin: 20px 0;
     background: #333;
-    color: white; 
+    color: white;
     border: none;
     cursor: pointer;
-    font-size: 1.2em; 
+    font-size: 1.2em;
     border-radius: 8px;
     transition: background 0.3s;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
@@ -92,7 +94,7 @@ footer {
     text-align: center;
     padding: 10px;
     background: #333;
-    color: white; 
+    color: white;
     border-radius: 8px;
 }
 
