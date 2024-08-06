@@ -4,22 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const errorMessages = [
     `sol: runtime error: ... EVIL 4 BIOHAZARD
-  RE4\\reframework\\autorun\\IKTesting.lua:53: field 'atan2' is not callable (a nil value)
-  stack traceback:
-      ... EVIL 4 BIOHAZARD
-      RE4\\reframework\\autorun\\IKTesting.lua:53: in upvalue 'calculate_yaw_pitch'
-      ... EVIL 4 BIOHAZARD
-      RE4\\reframework\\autorun\\IKTesting.lua:175: in upvalue 'update_ik_targets'
-      ... EVIL 4 BIOHAZARD
-      RE4\\reframework\\autorun\\IKTesting.lua:222: in function ...`,
+    RE4\\reframework\\autorun\\IKTesting.lua:53: field 'atan2' is not callable (a nil value)
+    stack traceback:
+        ... EVIL 4 BIOHAZARD
+        RE4\\reframework\\autorun\\IKTesting.lua:53: in upvalue 'calculate_yaw_pitch'
+        ... EVIL 4 BIOHAZARD
+        RE4\\reframework\\autorun\\IKTesting.lua:175: in upvalue 'update_ik_targets'
+        ... EVIL 4 BIOHAZARD
+        RE4\\reframework\\autorun\\IKTesting.lua:222: in function ...`,
 
     `sol: runtime error: ...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:28: attempt to concatenate a nil value (upvalue 'selected_weight_multiplier_preset')
-  stack traceback:
-      ...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:28: in function <...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:26>`,
+    stack traceback:
+        ...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:28: in function <...\nDragons Dogma 2\\reframework\\autorun\\Weight Manager.lua:26>`,
 
     `sol: runtime error: ...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:68: field 'begin' is not callable (a nil value)
-  stack traceback:
-      ...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:68: in function <...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:61>`,
+    stack traceback:
+        ...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:68: in function <...\nmon\\Dragons Dogma 2\\reframework\\autorun\\teleporter2.lua:61>`,
   ];
 
   let lastErrorMessageIndex = null;
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-  const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+  const headings = document.querySelectorAll("h2, h3, h4, h5, h6");
   const header = document.querySelector("header");
   const footer = document.querySelector("footer");
   const buttons = document.querySelectorAll("button");
